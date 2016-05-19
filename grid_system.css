@@ -1,0 +1,96 @@
+body {
+    background-color: gainsboro;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    padding-top: 60px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 0px;
+	}
+
+.bs-example {
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+	padding: 15px;
+	position: relative;
+	z-index: 1;
+	}
+
+.row {
+    padding: 15px;
+}
+
+h5 {
+	margin: 0px;
+	font-size: 18px;
+	padding-left: 15px;
+}
+
+.form-control {
+    border-radius: 0px;
+	border-color: darkgray;
+	background-color: gainsboro;
+    }
+
+.bottom {
+    border-bottom-color: lightgray;
+}
+
+.top {
+    border-top-color: lightgray;
+}
+
+.left-bottom {
+	border-left-color: lightgray;
+    border-bottom-color: lightgray;
+}
+
+.top-right {
+	border-top-color: lightgray;
+    border-right-color: lightgray;
+}
+
+.left-top {
+	border-left-color: lightgray;
+    border-top-color: lightgray;
+}
+
+.top-bottom {
+	border-top-color: lightgray;
+    border-bottom-color: lightgray;
+}
+
+.left-right-bottom {
+	border-left-color: lightgray;
+    border-bottom-color: lightgray;
+	border-right-color: lightgray;
+}
+
+footer {
+    background-color: whitesmoke;
+	height: 80px;
+	margin-top: -70px;
+}
+
+
+
+
+
+
+
+
+
+   
+
+   
+
+
+
+
+   

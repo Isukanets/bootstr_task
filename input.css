@@ -1,0 +1,87 @@
+body {
+    background-color: whitesmoke;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    padding-top: 60px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 60px;
+    }
+
+.bs-example {
+    border-style: solid;
+    border-width: thin;
+    border-color: red;
+    }
+
+h2 {
+    margin: 0px;
+    padding: 15px;
+	font-size: 18px;
+    background-color: red;
+    color: whitesmoke;
+}
+
+p {
+    margin: 0px;
+    padding: 15px;
+    color: black;
+}
+
+mark {
+    color: red;
+    background-color: gainsboro;
+}
+
+.row {
+    padding-left: 15px;
+	padding-right: 15px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+	}
+
+.input-group-addon {
+    color: lightgray;
+    background-color: whitesmoke;
+    border-radius: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+i {
+  margin-right: 10px;
+}
+
+h3 {
+	padding-left: 15px;
+	margin-bottom: 0px;
+	font-size: 18px;
+}
+
+.form-control {
+    border-radius: 0px;
+	background-color: whitesmoke;
+    }
+
+.btn {
+    border-radius: 0px;
+	background-color: red;
+}
+
+
+
+   
+
+   
+
+
+
+
+   

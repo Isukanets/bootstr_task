@@ -1,0 +1,49 @@
+.container {
+    padding-top: 80px;
+    padding-right: 120px;
+    padding-left: 80px;
+    padding-bottom: 80px;
+    }
+
+.bs-example {
+    border-style: solid;
+    border-width: thin;
+    border-color: limegreen;
+    }
+
+h2 {
+    margin: 0px;
+    padding: 15px;
+	font-size: 18px;
+    background-color: limegreen;
+    color: whitesmoke;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.form-horizontal {
+    padding: 15px;
+	}
+
+label {
+    color: darkgray;
+	}
+
+.form-control {
+    border-radius: 0px; }
+
+.btn {
+    padding: 8px 12px;
+    font-size: 18px;
+    border: solid;
+	border-width: thin;
+    border-radius: 0px;
+	background-color: limegreen;
+	color: whitesmoke;
+}
+
+   
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>task_boot_2_3</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="input.css"/>  
+      
+  </head>
+
+  <body>
+      
+      <div class="container bs-docs-container">
+          <div class="row">
+              <div class="bs-example"> 
+                  <h2><i class="glyphicon glyphicon-tasks"></i>Input groups</h2>
+				  <p> Extend for controls by adding text or buttons before, after, or on both sides of any text-based input. Use <mark>.input-group </mark>with an <mark>.input-group-addon</mark> to prepend or append elements to a <mark>.form-control</mark>.</p>
+				  
+				  <div class="row">
+					  <div class="col-md-6">
+						  <h4>Basic Example</h4>
+						  <div class="input-group">
+							  <span class="input-group-addon" id="basic-addon1">@</span>
+							  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+						  </div>
+						  <div class="input-group">
+							  <input type="text" class="form-control" aria-describedby="basic-addon2">
+							  <span class="input-group-addon">.00</span>
+						  </div>
+						  <div class="input-group">
+							  <span class="input-group-addon">$</span>
+							  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+							  <span class="input-group-addon">.00</span>
+						  </div>
+					  </div>
+					  
+					  <div class="col-md-6">
+						  <h4>Checkboxes and Radio Addons</h4>
+						  <div class="input-group">
+							  <span class="input-group-addon">
+								  <input type="checkbox" aria-label="...">
+							  </span>
+							  <input type="text" class="form-control" aria-label="...">
+						  </div><!-- /input-group -->
+					 	  <div class="input-group">
+							  <span class="input-group-addon">
+								  <input type="radio" aria-label="...">
+							  </span>
+							  <input type="text" class="form-control" aria-label="...">
+						  </div><!-- /input-group -->
+					  </div><!-- /.col-lg-6 -->
+				  </div><!-- /.row -->
+				  				  
+				  <div class="row">
+					  <h3>Button Addons and Buttons whith Dropdowns</h3>
+					  <p>Buttons in input groups are a bit different and requirent and require one extra level of nesring. Insted of <mark>.input-group-addon</mark>, you'll need to use <mark>.input-group-btn</mark> to wrap the buttons. This is required due to default browser style that cannot be overridden.</p>
+					  <div class="col-md-6">
+						  <div class="input-group">
+							  <span class="input-group-btn">
+								  <button class="btn btn-default" type="button">Go!</button>
+							  </span>
+							  <input type="text" class="form-control">
+						  </div><!-- /input-group -->
+						  <div class="input-group">
+							  <input type="text" class="form-control">
+							  <span class="input-group-btn">
+								  <button class="btn btn-default" type="button">Go!</button>
+							  </span>
+						  </div><!-- /input-group -->
+					  </div><!-- /.col-md-6 -->
+				  				  
+					  <div class="col-md-6">
+						  <div class="input-group">
+							  <div class="input-group-btn">
+								  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+								  <ul class="dropdown-menu">
+									  <li><a href="#">Action</a></li>
+									  <li><a href="#">Another action</a></li>
+									  <li><a href="#">Something else here</a></li>
+									  <li role="separator" class="divider"></li>
+									  <li><a href="#">Separated link</a></li>
+								  </ul>
+							  </div><!-- /btn-group -->
+							  <input type="text" class="form-control" aria-label="...">
+						  </div><!-- /input-group -->
+						  <div class="input-group">
+							  <input type="text" class="form-control" aria-label="...">
+							  <div class="input-group-btn">
+								  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+								  <ul class="dropdown-menu dropdown-menu-right">
+									  <li><a href="#">Action</a></li>
+									  <li><a href="#">Another action</a></li>
+									  <li><a href="#">Something else here</a></li>
+									  <li role="separator" class="divider"></li>
+									  <li><a href="#">Separated link</a></li>
+								  </ul>
+							  </div><!-- /btn-group -->
+						  </div><!-- /input-group -->
+					  </div><!-- /.col-md-6 -->
+				</div><!-- /.row -->
+				  
+			  </div>
+		  </div>
+	  </div>
+      
+    <!-- jQuery (потрібно для JavaScript плагінів Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Підключення мінімізованої збірки всіх плагінів jQuery. Можна підключати додаткові плагіни, якщо потрібно -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
